@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/Development/static/css/main.073c9b0a.css",
-    "main.js": "/Development/static/js/main.84af6558.js",
-    "static/media/logo.svg": "/Development/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Development/static/css/main.777a697c.css",
+    "main.js": "/Development/static/js/main.aafd059a.js",
+    "static/media/background.png": "/Development/static/media/background.d385ef8fe64941996351.png",
+    "static/media/torkoal.webp": "/Development/static/media/torkoal.c8eda342d636cc8f2e50.webp",
+    "static/media/tangrowth.webp": "/Development/static/media/tangrowth.e15c7c3d5a1f1bc2f916.webp",
+    "static/media/milotic.webp": "/Development/static/media/milotic.85dfc0621e84e03e5908.webp",
+    "static/media/heatmor.webp": "/Development/static/media/heatmor.c121210d0418008bd839.webp",
+    "static/media/turtwig.png": "/Development/static/media/turtwig.19a9b5f94c1d5b168c35.png",
+    "static/media/meganium.png": "/Development/static/media/meganium.b28cd33ac27f474c4773.png",
+    "static/media/totodile.png": "/Development/static/media/totodile.ef6ccdbc728cc2a868e6.png",
+    "static/media/vaporeon.png": "/Development/static/media/vaporeon.1350fa8d3a283d510b59.png",
+    "static/media/flareon.webp": "/Development/static/media/flareon.af09ef660ae21d77e745.webp",
+    "static/media/leafeon.jpg": "/Development/static/media/leafeon.becbaf9ae4a7a0658b01.jpg",
+    "static/media/chimchar.png": "/Development/static/media/chimchar.8191269ab158b55e34b2.png",
     "index.html": "/Development/index.html",
-    "main.073c9b0a.css.map": "/Development/static/css/main.073c9b0a.css.map",
-    "main.84af6558.js.map": "/Development/static/js/main.84af6558.js.map"
+    "main.777a697c.css.map": "/Development/static/css/main.777a697c.css.map",
+    "main.aafd059a.js.map": "/Development/static/js/main.aafd059a.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.84af6558.js"
+    "static/css/main.777a697c.css",
+    "static/js/main.aafd059a.js"
   ]
 }
