@@ -1,0 +1,21 @@
+.card {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    overflow: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokemon-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.button {
+    margin-top: 10px;
+}

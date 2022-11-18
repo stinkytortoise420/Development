@@ -1,3 +1,21 @@
+body {
+  background-image: url('images/background.png');
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  padding: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -15,24 +33,55 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.pokemon-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ed7112; */
+  background-color: rgba(206, 135, 0, 0.7);
+  padding: 10px;
+  margin-top: 15px;
+  row-gap: 5px;
+}
+
+h1 {
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.filter-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filter-text {
+  color: white;
+  font-weight: bold;
+  font-size: 2vmin;
 }
+
