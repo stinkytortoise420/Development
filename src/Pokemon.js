@@ -46,12 +46,21 @@ function checkImage(name) {
 
 export default function Pokemon(props) {
     const data = props.data;
-    const type = data[0];
-    const nature = data[1];
-    const attack = data[2];
-    const total = data[3];
-    const pName = data[4];
+    const type = data.type;
+    const nature = data.nature;
+    const attack = data.attack;
+    const total = data.total;
+    const pName = data.pName;
     const image = checkImage(pName);
+
+    function handleAdd() {
+        props.addToTeam(pName, parseInt(total));
+    }
+
+    function handleRemove() {
+        props.removeFromTeam(pName, parseInt(total));
+    }
+
     return (
         <Card className="card">
             <div className="pokemon-info">
@@ -61,10 +70,14 @@ export default function Pokemon(props) {
                 <Typography variant="subtitle1">Attack: {attack}</Typography>
                 <Typography variant="subtitle1">Total: {total}</Typography>
                 <div className="button">
-                    <Button variant="contained" size="small">Add To Party</Button>
+                    <Button variant="contained" size="small" onClick={ () => {
+                        handleAdd();
+                    }}>Add To Party</Button>
                 </div>
                 <div className="button">
-                    <Button variant="contained" size="small" className="button">Remove From Party</Button>
+                    <Button variant="contained" size="small" onClick={ () => {
+                        handleRemove();
+                    }}>Remove From Party</Button>
                 </div>
             </div>
             <div className="pokemon-image">

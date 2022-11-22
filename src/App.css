@@ -45,7 +45,8 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .functions {
@@ -72,6 +73,11 @@ h1 {
   color: white;
 }
 
+h3 {
+  font-weight: bold;
+  color: white;
+}
+
 .filter-category {
   display: flex;
   flex-direction: row;
@@ -83,5 +89,28 @@ h1 {
   color: white;
   font-weight: bold;
   font-size: 2vmin;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ed7112; */
+  background-color: rgba(206, 135, 0, 0.7);
+  padding: 10px;
+  margin-top: 15px;
+  row-gap: 5px;
+  width: 50%;
+}
+
+.team-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.pList {
+  display: flex;
+  flex-direction: row;
 }
 

@@ -1,5 +1,7 @@
 .card {
     margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     display: flex;
     flex-direction: row;
     width: 30%;
