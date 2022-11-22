@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Development/static/css/main.777a697c.css",
-    "main.js": "/Development/static/js/main.aafd059a.js",
+    "main.css": "/Development/static/css/main.b9d70b06.css",
+    "main.js": "/Development/static/js/main.46d761b5.js",
     "static/media/background.png": "/Development/static/media/background.d385ef8fe64941996351.png",
     "static/media/torkoal.webp": "/Development/static/media/torkoal.c8eda342d636cc8f2e50.webp",
     "static/media/tangrowth.webp": "/Development/static/media/tangrowth.e15c7c3d5a1f1bc2f916.webp",
@@ -15,11 +15,11 @@
     "static/media/leafeon.jpg": "/Development/static/media/leafeon.becbaf9ae4a7a0658b01.jpg",
     "static/media/chimchar.png": "/Development/static/media/chimchar.8191269ab158b55e34b2.png",
     "index.html": "/Development/index.html",
-    "main.777a697c.css.map": "/Development/static/css/main.777a697c.css.map",
-    "main.aafd059a.js.map": "/Development/static/js/main.aafd059a.js.map"
+    "main.b9d70b06.css.map": "/Development/static/css/main.b9d70b06.css.map",
+    "main.46d761b5.js.map": "/Development/static/js/main.46d761b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.777a697c.css",
-    "static/js/main.aafd059a.js"
+    "static/css/main.b9d70b06.css",
+    "static/js/main.46d761b5.js"
   ]
 }
